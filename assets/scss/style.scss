@@ -1,0 +1,38 @@
+@import 'reset';
+
+
+.slider-container{
+width: 800px;
+height: 500px;
+overflow: hidden;
+
+.slider-wrapper{
+  height: 400px;
+  transition: all 1s linear;
+  left: 0;
+  li{
+    width: 800px;
+  }
+}
+.preview{
+top: 400px;
+  li{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    overflow: hidden;
+
+    img{
+transition: all 1s linear;
+    }
+  }
+
+  li:hover{
+
+    img{
+      transform: scale(1.3);
+    }
+  }
+
+}
+}
